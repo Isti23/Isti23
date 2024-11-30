@@ -1,0 +1,125 @@
+body {
+    margin: 0px;
+  }
+  
+  .grid-container {
+    display: grid; /* Aktifkan grid */
+    grid-template-columns: repeat(3, 1fr); /* Buat 3 kolom dengan ukuran sama */
+    gap: 20px; /* Jarak antar kolom dan baris */
+    padding: 20px; /* Jarak dalam kontainer */
+  }
+  
+  .kotak {
+    background: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 11px;
+  }
+  
+  .kolom-kiri {
+    width: 30%;
+  }
+  
+  .kolom-kanan {
+    width: 70%;
+  }
+  
+  .foto {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+  }
+  
+  /* Gaya untuk navbar */
+  .navbar {
+    align-items: center;
+    /* Pusatkan secara vertikal */
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+  }
+  
+  /* Gaya untuk logo dan teks */
+  .navbar-logo {
+    font-weight: bold;
+  }
+  
+  .navbar-logo img {
+    float: left;
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+    /* Jarak antara gambar dan teks */
+    border-radius: 50%;
+    /* Opsional, untuk membuat gambar bulat */
+  }
+  
+  .navbar-logo h4 {
+    float: left;
+    display: block;
+    margin: 8px 0;
+    /* Menghilangkan margin default pada h4 */
+    font-size: 1.2rem;
+    color: white;
+    line-height: 1;
+    /* Mengatur tinggi teks agar proporsional */
+  }
+  
+  /* Gaya untuk link dalam navbar */
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+  }
+  
+  /* Gaya hover untuk link */
+  .navbar a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+  }
+  
+  /* Untuk grup link di sebelah kanan */
+  .navbar-right {
+    display: flex;
+  }
+  
+  /* Tambahkan margin untuk setiap link */
+  .navbar a:not(:last-child) {
+    margin-right: 0.5rem;
+  }
+  
+  .container {
+    padding: 3%;
+  }
+  
+  .hero {
+    background: #ffe4bb;
+    border-radius: 20px;
+    min-height: 200px;
+    padding: 3%;
+    display: flex;
+  }
+  
+  .row {
+    width: 100%;
+    margin-top: 2%;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .btn {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background: #ca7373;
+    border-radius: 10px;
+  }
+  
